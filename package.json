@@ -1,0 +1,27 @@
+{
+  "name": "agent-rules",
+  "version": "0.1.0",
+  "description": "Install one shared set of coding rules and skills into Claude Code, Cursor, Codex, OpenCode, Droid, or Pi",
+  "type": "module",
+  "bin": {
+    "agent-rules": "bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "rules",
+    "skills"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "generate": "node bin/cli.mjs add --root . --agent claude-code,cursor,codex --pack core,qvac --yes"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratiknarola-t/qvac-dev-rules.git"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "packs": [
+    "core",
+    "qvac"
+  ],
+  "harnesses": [
+    "claude-code",
+    "cursor",
+    "codex"
+  ],
+  "files": [
+    {
+      "path": ".agents/rules/core/coding-standards.md",
+      "hash": "fd34b14fafb8342dac71970ddbbe014f855d4c46d5d602b32e915a8b241c7672"
+    },
+    {
+      "path": ".agents/rules/core/pr-review-core.md",
+      "hash": "8b26bc43f32b33e9346719f8da11786e6f07aaa338c62b68579b4f89d7028b2c"
+    },
+    {
+      "path": ".agents/rules/core/working-style.md",
+      "hash": "aacd6339cb72b1f47156dbc2425731a8a0bcdf7e3f64c544aca64cc06d938b82"
+    },
+    {
+      "path": ".agents/rules/qvac/qvac-monorepo.md",
+      "hash": "1f42f1a22da47f60d0719c9c7c94eba39c8c06c795b956b14a6265859d4be3b9"
+    },
+    {
+      "path": ".agents/rules/qvac/qvac-packages.md",
+      "hash": "84fad581fb1259365248605324e25322f7484467592139afed4af9eae90ef12e"
+    },
+    {
+      "path": ".agents/rules/qvac/qvac-registry-vcpkg.md",
+      "hash": "cce035f0f876d3f4d40e2f59598154de424e8fd327b07ba0aa86141f8d03849f"
+    },
+    {
+      "path": ".agents/rules/qvac/qvac-whisper-cpp.md",
+      "hash": "7bbb9d85a37a0f4d12370b7b293d4c913d14920fb743f89f5a2f4dd38695b1c0"
+    },
+    {
+      "path": ".agents/skills/pr-review/SKILL.md",
+      "hash": "706373784fb6d9a3652adbc6e4fc0e2a9e9c80fc6eb8df730f69ce07504c1e9b"
+    },
+    {
+      "path": ".agents/skills/pr-self-review/SKILL.md",
+      "hash": "02bea612eb68cd132de7a4a3835d6240d4af6fcafabc36f06694b9dad5aec93d"
+    },
+    {
+      "path": ".claude/rules/core/coding-standards.md",
+      "hash": "fd34b14fafb8342dac71970ddbbe014f855d4c46d5d602b32e915a8b241c7672"
+    },
+    {
+      "path": ".claude/rules/core/pr-review-core.md",
+      "hash": "8b26bc43f32b33e9346719f8da11786e6f07aaa338c62b68579b4f89d7028b2c"
+    },
+    {
+      "path": ".claude/rules/core/working-style.md",
+      "hash": "aacd6339cb72b1f47156dbc2425731a8a0bcdf7e3f64c544aca64cc06d938b82"
+    },
+    {
+      "path": ".claude/rules/qvac/qvac-monorepo.md",
+      "hash": "ebd99085c3fad79f5152fa4d7e658acba90f031878ec85706aba1d3c1ac462a7"
+    },
+    {
+      "path": ".claude/rules/qvac/qvac-packages.md",
+      "hash": "e1bebdbaab18d64d19080f99be162210552588ffdc3eeb59e07aa2eed0371a30"
+    },
+    {
+      "path": ".claude/rules/qvac/qvac-registry-vcpkg.md",
+      "hash": "e6f1c61b8c53bdf24da98c1c785510e888908b70bda1b525944b331be5537304"
+    },
+    {
+      "path": ".claude/rules/qvac/qvac-whisper-cpp.md",
+      "hash": "dae95aebaf36aae7106ee343c84cb77fe92e8313b6f0d4488f58d7be404595ab"
+    },
+    {
+      "path": ".claude/skills/pr-review/SKILL.md",
+      "hash": "706373784fb6d9a3652adbc6e4fc0e2a9e9c80fc6eb8df730f69ce07504c1e9b"
+    },
+    {
+      "path": ".claude/skills/pr-self-review/SKILL.md",
+      "hash": "02bea612eb68cd132de7a4a3835d6240d4af6fcafabc36f06694b9dad5aec93d"
+    },
+    {
+      "path": ".cursor/rules/core/coding-standards.mdc",
+      "hash": "b4d67727f699207eb25248e26e5abb0a49fbc4a6611464aa7b2b782b7d793cb1"
+    },
+    {
+      "path": ".cursor/rules/core/pr-review-core.mdc",
+      "hash": "07260dfad718452fd97e6668e68bfb5f2f0b25204e448420f447a2470c60f48f"
+    },
+    {
+      "path": ".cursor/rules/core/working-style.mdc",
+      "hash": "915c379ed8aaf33e52842fe21f007e10f579aecc3b498cfe2786201a08545a6d"
+    },
+    {
+      "path": ".cursor/rules/qvac/qvac-monorepo.mdc",
+      "hash": "fda1655f27ff88cc5fcee2c922dbf3c7e5d945a7d8ed603b009a19bf43a26491"
+    },
+    {
+      "path": ".cursor/rules/qvac/qvac-packages.mdc",
+      "hash": "c20a8a4952f324c6404d9bcbf438024477eb875cd33ae43c2e806e8daac1f01f"
+    },
+    {
+      "path": ".cursor/rules/qvac/qvac-registry-vcpkg.mdc",
+      "hash": "71cb645c7c816dae4c046f095e4a8f7733c53c3ba63296e4ee2f9afd208b4a4f"
+    },
+    {
+      "path": ".cursor/rules/qvac/qvac-whisper-cpp.mdc",
+      "hash": "d30cc0a6953e7401428939e9a4ca6e164e2e072eb46c17dd15f9ac9cca620252"
+    }
+  ],
+  "blocks": [
+    "AGENTS.md"
+  ]
+}
